@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+*{
+    margin: 0px;
+    text-decoration-line:none ;
+    font-family: 'Concert One';
+}
+header{
+    width: 100%;
+    height: 5vh;
+    color: #ffe4c4;
+    background-color: #000000;
+    text-align: left;
+    font-size: 1.5rem;
+}
+main{
+    height: 87.5vh;
+    background-color: #fafafa;
+    overflow: scroll;
+}
+footer{
+    color: #515151;
+    font-size: xx-large;
+    text-align: center;
+    height: 7.5vh;
+    background-color: rgb(0, 0, 0);
+}
+header #logo{
+    margin: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 4vh;
+    float: left;
+}
+header >button{
+    position: relative;
+    float: right;
+    margin: 0px;
+    display: inline-flex;
+    background-color: #000000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-width:0px ;
+    height: 5vh;
+    width: 5vh;
+}
+header>button div{
+    position: static;
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    border: 2px solid #ffffff;
+    transition: all .2s ease;
+}
+
+header nav{
+    float: right;
+    display: none;
+}
+header nav ul li {
+    color: #ffe4c4;
+    list-style: none;
+    display: inline-flex;
+}
+header nav ul li:last-of-type{
+    margin-right: 10px;
+}
+main nav ul li{
+    list-style: none;
+    text-align: center;
+    color: #ffe4c4;
+}
+header nav ul li a:hover{
+    cursor: pointer;
+    color: #0284ff;
+}
+main nav ul li a:hover{
+    cursor: pointer;
+    color: #0284ff;
+}
+main nav{
+    display: none;
+    width: 100%;
+    background-color: #000000;
+}
+li a{
+    text-transform: uppercase;
+    color: #ffe4c4;
+}
+footer{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+footer button{
+    width: 6vh;
+    height:6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000000;
+    border-radius: 25%;
+    overflow: hidden;
+}
+footer button:hover{
+    background-color: #515151;
+}
+footer button svg path{
+    transition:fill 0.5s ease;
+}
+footer button svg path:hover{
+    fill:#ff4a4a;
+}
+footer button svg{
+    height: 100%;
+    width: 100%;
+}
+main section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-color: #ffe4c4;
+}
+main section div img{
+    margin-top: 10px;
+    aspect-ratio: 1/1;
+    width: 25vw;
+}
+main section div fieldset legend img {
+    width: 20%;
+}
+main div svg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+main section div fieldset{
+    background-color: #b9b9b9;
+    text-align: left;
+}
