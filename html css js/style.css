@@ -10,7 +10,7 @@ header{
     color: #ffe4c4;
     background-color: #000000;
     text-align: left;
-    font-size: 1rem;
+    font-size: 1vmax;
 }
 main{
     height: 87.5vh;
