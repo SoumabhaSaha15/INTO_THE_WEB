@@ -31,7 +31,7 @@ header #logo{
     height: 4vh;
     float: left;
 }
-header >button{
+header>button{
     position: relative;
     float: right;
     margin: 0px;
