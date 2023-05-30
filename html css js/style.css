@@ -63,7 +63,7 @@ header nav ul li {
     list-style: none;
     display: inline-flex;
 }
-header nav ul {
+nav ul {
     all:unset;
 }
 header nav ul li:last-of-type{
